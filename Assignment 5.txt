@@ -1,0 +1,39 @@
+que 1: Why Django should be used for web-development? Explain how you 
+can create a project in Django?
+--> django is a one type frame work it is easy to understand and with the use of django it compleates more 
+    than 50% devlopment . it is also make admin side and also make 1 to more than project. localhost:8000
+    is django code.
+  - how create project>
+  1. create virtual enviroment=python -m venv myenv
+  2. activate virtual enviroment = myenv\Scripts\activate
+  3. install django = pip install django
+  4. check django version
+  5. dajngo start project
+  6. python manage.py startproject myproject
+  7. python manage.py createsuperuser
+  8. python manage.py makemigrations
+  9. python manage.py migrate
+
+que 2 :How to check installed version of django?  
+--> "django --version" 
+
+que 3: Explain what does django-admin.py make messages command is used for?
+--> run over the entire source tree of the current direction and puls out all strings marked 
+    for translation.it cretates a message file in the location.
+
+que 4 :What is Django URLs?make program to create django urls 
+--> Django app urls.py: First, a urls.py file needs to be created within the application. Each project in Django
+    should maintain its own urls.py file for every application.
+    This ensures effortless inclusion and exclusion of applications from the project.
+
+que 5 :What is a QuerySet?Write program to create a new Post object in database:
+--> A QuerySet is a collection of data from a database. A QuerySet is built up as a list of objects.
+ QuerySets makes it easier to get the data you actually need,by allowing you to filter and order the
+ data at an early stage.
+
+que 6 :Mention what command line can be used to load data into Django?
+--> To load data into Django you have to use the command line Django-admin.py loaddata. The command line will 
+    searches the data and loads the contents of the named fixtures into the database.
+
+que 7: Explain what does django-admin.py make messages command is used for?
+--> Same as question 3
