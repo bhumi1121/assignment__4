@@ -1,5 +1,29 @@
 # What are oops concepts? Is multiple inheritance supported in java
-"""ans :Inheritance is one of the core concepts of Object-Oriented Programming.
+"""ans :python has been an object oriented language slice it existed. because of this creating and using classes and
+       object are downrightway.
+       thare are five oop concepts.
+       
+       Class: A blue print for an object
+       Objects: An instance/part example of class
+       Polymorphism:Ability to react in different way having the same name having many forms"
+       types :1.overloadin
+              2.overriding
+       Encapsulation:Wrapping up od data into a single unit"
+                    "here the unit is representes as our class"
+       Inheritance:Inheritance: Ability to adapt the behaviour and propart of parent class to child class 
+                  here two or more class are in parent-child relation.
+                  inheritance will always follow parent-to-child
+              
+              ***** TYPE OF INHERITANCE*****
+              1.single leval inheritance
+              2.multi leval inheritance
+              3.multipal inheritance
+              4.hirirchical inheritance
+              5.hybrib inheritance
+
+
+
+      Inheritance is one of the core concepts of Object-Oriented Programming.
       Multiple Inheritance is the process in which a subclass inherits more than one superclass.
       Java does not support Multiple Inheritance; however,
       Java interfaces help us achieve Multiple Inheritance of type in Java."""
